@@ -12,6 +12,7 @@ const todo = require("./routes/todo");
 // connect database
 connectDB();
 
+
 // cors
 app.use(cors({ origin: true, credentials: true })); // added
 
